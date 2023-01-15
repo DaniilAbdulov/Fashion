@@ -260,7 +260,7 @@ body {
 
 @media (max-width: 431px) {
   .general {
-    background: url(/img/general.png);
+    background: url(../img/general.png);
     background-size: cover;
     background-position: 666px 0px;
     padding: 50px 10px;
@@ -401,6 +401,7 @@ body {
   }
   .card__image {
     height: 517px;
+    width: 100%;
     overflow: hidden;
     margin: 0px 0px 20px 0px;
   }
@@ -661,6 +662,7 @@ body {
 .otziv__autor p:nth-child(1) {
   font-weight: 600;
   text-transform: capitalize;
+  margin: 0 5px 0 0;
 }
 
 @media (max-width: 431px) {
@@ -672,7 +674,7 @@ body {
     flex-direction: column;
   }
   .otziv__image {
-    margin: auto;
+    margin: 0 auto 5px;
     padding: 0 10px;
     flex: 0 0 400px;
     height: 500px;
@@ -685,10 +687,10 @@ body {
        object-fit: cover;
   }
   .otziv__text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 26px;
-    margin: 0px 0px 10px 0px;
+    padding: 0 10px;
     text-align: center;
   }
   .otziv__text a {

@@ -177,7 +177,7 @@ body{font-family: 'PT Serif', serif;}
 }
 @media (max-width:431px) {
     .general {
-        background: url(/img/general.png);
+        background: url(../img/general.png);
         background-size: cover;
         background-position: 666px 0px;
         padding: 50px 10px;
@@ -322,6 +322,7 @@ body{font-family: 'PT Serif', serif;}
         align-items: center;
         &__image {
             height: 517px;
+            width: 100%;
             overflow: hidden;
             margin: 0px 0px 20px 0px;
             img{
@@ -571,7 +572,7 @@ body{font-family: 'PT Serif', serif;}
     &__autor {
         display: flex;
         font-size: 16px;
-        p:nth-child(1){font-weight: 600;text-transform: capitalize};
+        p:nth-child(1){font-weight: 600;text-transform: capitalize; margin: 0 5px 0 0};
     }
 }
 @media (max-width:431px) {
@@ -582,7 +583,7 @@ body{font-family: 'PT Serif', serif;}
         flex-direction: column;
     }
     &__image {
-        margin: auto;
+        margin: 0 auto 5px;
         padding: 0 10px;
         flex: 0 0 400px;
         height: 500px;
@@ -594,10 +595,10 @@ body{font-family: 'PT Serif', serif;}
     &__body {
     }
     &__text {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         line-height: 26px;
-        margin: 0px 0px 10px 0px;
+        padding: 0 10px;
         text-align: center;
         a{color: #EABF9F;text-decoration: underline;}
     }
